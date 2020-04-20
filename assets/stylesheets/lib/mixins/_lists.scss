@@ -1,0 +1,12 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Lists
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin clear-list {
+  list-style-type: none;
+}
+
+// Classes
+// -------------------------------------------------------------
+.clear-list { @include clear-list; }

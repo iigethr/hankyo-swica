@@ -1,0 +1,23 @@
+{
+  "name": "SWICA Swiss health insurance. Because health is everything.",
+  "short_name": "T+N",
+  "description": "Choosing the right health and accident insurance is definitely worthwhile. SWICA offers first-class service and high-quality products in every area of healthcare.",
+  "icons": [
+    {
+      "src": "favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type":"image/png"
+    }
+  ],
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "https://hankyo-swica.now.sh/",
+  "theme_color": "#ffffff"
+}

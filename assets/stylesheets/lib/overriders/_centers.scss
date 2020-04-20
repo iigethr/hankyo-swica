@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Centers
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.center-h-parent {
+  float: left !important;
+  position: relative !important;
+  right: -50% !important;
+}
+
+.center-h-child {
+  float: left !important;
+  overflow: hidden !important;
+  position: relative !important;
+  right: 50% !important;
+}
+
+.center-v-parent {
+  display: table !important;
+  float: left !important;
+  height: 100% !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.center-v-child {
+  display: table-cell !important;
+  float: left !important;
+  height: auto !important;
+  vertical-align: middle !important;
+}

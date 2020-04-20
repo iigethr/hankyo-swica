@@ -1,0 +1,52 @@
+# Project Data
+
+project:
+  # Metatags
+  meta_lang: "en-GB"
+  meta_title: "Tadao + Next"
+  meta_description: "A basic kickstart setup for NextJS. It comes pre-installed with Tadao - A Minimal and Lightweight Design System."
+  meta_tags: "campaigns, legal, sections"
+  meta_type: "website"
+  meta_url: "https://tadao-next.now.sh/"
+  meta_image: "https://og-image.now.sh/Tadao%20%2B%20Next.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-white-triangle.svg"
+  meta_card: "summary_large_image"
+  meta_handle: "@iigethr"
+  # -------
+  slug: "VeznP0T9YLaJDfzd"
+  title: "Tadao + Next - Translated"
+  subtitle: "Named in tribute to one of my favourite architects, Tadao Andō. - Translated"
+  description: "A basic kickstart setup for NextJS. It comes pre-installed with Tadao - A Minimal and Lightweight Design System. - Translated"
+  sections:
+    -
+      # Metatags
+      meta_title: "Section One | Tadao + Next"
+      meta_description: "Cras mattis consectetur purus sit amet fermentum."
+      # -------
+      slug: "section-one"
+      title: "Section One"
+      body: >-
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p>
+        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.</p>
+    -
+      # Metatags
+      meta_title: "Section Two | Tadao + Next"
+      meta_description: "Maecenas faucibus mollis interdum."
+      # -------
+      slug: "section-two"
+      title: "Section Two"
+      body: >-
+        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
+        <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+        <p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+    -
+      # Metatags
+      meta_title: "Section Three | Tadao + Next"
+      meta_description: "Maecenas sed diam eget risus varius blandit sit amet non magna."
+      # -------
+      slug: "section-three"
+      title: "Section Three"
+      body: >-
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        <p>Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla.</p>

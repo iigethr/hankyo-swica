@@ -1,0 +1,14 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Underlines
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.underline { text-decoration: underline !important; }
+.no-underline { text-decoration: none !important; }
+.hover-underline {
+  text-decoration: none !important;
+  &:hover,
+  &:active {
+    text-decoration: underline !important;
+  }
+}

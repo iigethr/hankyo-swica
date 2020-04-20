@@ -1,0 +1,27 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Misc
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.auto,
+.wrap-auto {
+  width: auto !important;
+}
+
+.wide,
+.wrap-wide {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.blueprint {
+  border: 1px dashed $blue;
+}

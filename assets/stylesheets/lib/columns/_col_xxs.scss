@@ -1,0 +1,59 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Double Extra Small
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$width: 240px;
+$class: "col-xxs";
+
+@import "col_setup";
+@import "col_math";
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 360px
+// -------------------------------------------------------------
+@media #{$xs} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media all and #{$xxl} {
+  $width: 1240px;
+  @import "col_math";
+}

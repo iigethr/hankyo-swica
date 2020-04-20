@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets
+Disallow: /campaigns
+Disallow: /campaigns/*
+Disallow: /components
+Disallow: /layouts
+Disallow: /design
+Disallow: /design/*
+Disallow: /legal
+Disallow: /legal/*

@@ -1,0 +1,806 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Button Themes
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+// Default
+@mixin button-default-theme {
+  @include button-gray-theme;
+}
+
+// Black
+@mixin button-black-theme {
+  background-color: $black !important;
+  border-color: $black !important;
+  color: $gray-300 !important;
+  &:link,
+  &:visited {
+    background-color: $black !important;
+    border-color: $black !important;
+    color: $gray-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $black !important;
+    border-color: $black !important;
+    color: $white !important;
+  }
+}
+
+// White
+@mixin button-white-theme {
+  background-color: $white !important;
+  border-color: $white !important;
+  color: $gray-500 !important;
+  &:link,
+  &:visited {
+    background-color: $white !important;
+    border-color: $white !important;
+    color: $gray-500 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $white !important;
+    border-color: $white !important;
+    color: $black !important;
+  }
+}
+
+// Gray
+@mixin button-gray-light-theme {
+  background-color: $gray-100 !important;
+  border-color: $gray-100 !important;
+  color: $gray-300 !important;
+  &:link,
+  &:visited {
+    background-color: $gray-100 !important;
+    border-color: $gray-100 !important;
+    color: $gray-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $gray-000 !important;
+    border-color: $gray-000 !important;
+    color: $gray-500 !important;
+  }
+  &.no-bg {
+    border-color: $gray-100 !important;
+    color: $gray-300 !important;
+    &:link,
+    &:visited {
+      border-color: $gray-100 !important;
+      color: $gray-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $gray-100 !important;
+      border-color: $gray-100 !important;
+      color: $gray-500 !important;
+    }
+  }
+}
+
+@mixin button-gray-theme {
+  background-color: $gray-500 !important;
+  border-color: $gray-500 !important;
+  color: $gray-100 !important;
+  &:link,
+  &:visited {
+    background-color: $gray-500 !important;
+    border-color: $gray-500 !important;
+    color: $gray-100 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $gray-400 !important;
+    border-color: $gray-400 !important;
+    color: $gray-100 !important;
+  }
+  &.no-bg {
+    border-color: $gray-500 !important;
+    color: $gray-500 !important;
+    &:link,
+    &:visited {
+      border-color: $gray-500 !important;
+      color: $gray-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $gray-500 !important;
+      border-color: $gray-500 !important;
+      color: $gray-100 !important;
+    }
+  }
+}
+
+@mixin button-gray-dark-theme {
+  background-color: $gray-700 !important;
+  border-color: $gray-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $gray-700 !important;
+    border-color: $gray-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $gray-600 !important;
+    border-color: $gray-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $gray-700 !important;
+    color: $gray-700 !important;
+    &:link,
+    &:visited {
+      border-color: $gray-700 !important;
+      color: $gray-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $gray-700 !important;
+      border-color: $gray-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Purple
+@mixin button-purple-light-theme {
+  background-color: $purple-100 !important;
+  border-color: $purple-100 !important;
+  color: $purple-300 !important;
+  .icon {
+    fill: $purple-300 !important;
+  }
+  &:link,
+  &:visited {
+    background-color: $purple-100 !important;
+    border-color: $purple-100 !important;
+    color: $purple-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $purple-000 !important;
+    border-color: $purple-000 !important;
+    color: $purple-300 !important;
+  }
+  &.no-bg {
+    border-color: $purple-100 !important;
+    color: $purple-300 !important;
+    &:link,
+    &:visited {
+      border-color: $purple-100 !important;
+      color: $purple-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $purple-100 !important;
+      border-color: $purple-100 !important;
+      color: $purple-300 !important;
+    }
+  }
+}
+
+@mixin button-purple-theme {
+  background-color: $purple-400 !important;
+  border-color: $purple-400 !important;
+  color: $white !important;
+  .icon {
+    fill: $white !important;
+  }
+  &:link,
+  &:visited {
+    background-color: $purple-400 !important;
+    border-color: $purple-400 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $purple-500 !important;
+    border-color: $purple-500 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    background-color: transparent !important;
+    border-color: $purple-500 !important;
+    color: $purple-500 !important;
+    .icon {
+      fill: $purple-500 !important;
+    }
+    &:link,
+    &:visited {
+      background-color: transparent !important;
+      border-color: $purple-500 !important;
+      color: $purple-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $purple-500 !important;
+      border-color: $purple-500 !important;
+      color: $purple-100 !important;
+      .icon {
+        fill: $purple-100 !important;
+      }
+    }
+  }
+}
+
+@mixin button-purple-dark-theme {
+  background-color: $purple-700 !important;
+  border-color: $purple-800 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $purple-700 !important;
+    border-color: $purple-800 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $purple-600 !important;
+    border-color: $purple-700 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $purple-700 !important;
+    color: $purple-700 !important;
+    &:link,
+    &:visited {
+      border-color: $purple-700 !important;
+      color: $purple-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $purple-700 !important;
+      border-color: $purple-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Blue
+@mixin button-blue-light-theme {
+  background-color: $blue-100 !important;
+  border-color: $blue-100 !important;
+  color: $blue-300 !important;
+  &:link,
+  &:visited {
+    background-color: $blue-100 !important;
+    border-color: $blue-100 !important;
+    color: $blue-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $blue-000 !important;
+    border-color: $blue-000 !important;
+    color: $blue-500 !important;
+  }
+  &.no-bg {
+    border-color: $blue-100 !important;
+    color: $blue-300 !important;
+    &:link,
+    &:visited {
+      border-color: $blue-100 !important;
+      color: $blue-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $blue-100 !important;
+      border-color: $blue-100 !important;
+      color: $blue-500 !important;
+    }
+  }
+}
+
+@mixin button-blue-theme {
+  background-color: $blue-400 !important;
+  border-color: $blue-500 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $blue-400 !important;
+    border-color: $blue-500 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $blue-500 !important;
+    border-color: $blue-500 !important;
+    color: $white !important;
+  }
+  &.outline {
+    background-color: $transparent !important;
+    border-color: $blue-500 !important;
+    color: $blue-500 !important;
+    &:link,
+    &:visited {
+      background-color: $transparent !important;
+      border-color: $blue-500 !important;
+      color: $blue-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $transparent !important;
+      border-color: $blue-300 !important;
+      color: $blue-300 !important;
+    }
+  }
+}
+
+@mixin button-blue-dark-theme {
+  background-color: $blue-700 !important;
+  border-color: $blue-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $blue-700 !important;
+    border-color: $blue-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $blue-600 !important;
+    border-color: $blue-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $blue-700 !important;
+    color: $blue-700 !important;
+    &:link,
+    &:visited {
+      border-color: $blue-700 !important;
+      color: $blue-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $blue-700 !important;
+      border-color: $blue-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Green
+@mixin button-green-light-theme {
+  background-color: $green-100 !important;
+  border-color: $green-100 !important;
+  color: $green-300 !important;
+  &:link,
+  &:visited {
+    background-color: $green-100 !important;
+    border-color: $green-100 !important;
+    color: $green-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $green-000 !important;
+    border-color: $green-000 !important;
+    color: $green-500 !important;
+  }
+  &.no-bg {
+    border-color: $green-100 !important;
+    color: $green-300 !important;
+    &:link,
+    &:visited {
+      border-color: $green-100 !important;
+      color: $green-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $green-100 !important;
+      border-color: $green-100 !important;
+      color: $green-500 !important;
+    }
+  }
+}
+
+@mixin button-green-theme {
+  background-color: $green-400 !important;
+  border-color: $green-500 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $green-400 !important;
+    border-color: $green-500 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $green-500 !important;
+    border-color: $green-500 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $green-500 !important;
+    color: $green-500 !important;
+    &:link,
+    &:visited {
+      border-color: $green-500 !important;
+      color: $green-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $green-500 !important;
+      border-color: $green-500 !important;
+      color: $green-100 !important;
+    }
+  }
+}
+
+@mixin button-green-dark-theme {
+  background-color: $green-700 !important;
+  border-color: $green-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $green-700 !important;
+    border-color: $green-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $green-600 !important;
+    border-color: $green-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $green-700 !important;
+    color: $green-700 !important;
+    &:link,
+    &:visited {
+      border-color: $green-700 !important;
+      color: $green-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $green-700 !important;
+      border-color: $green-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Yellow
+@mixin button-yellow-light-theme {
+  background-color: $yellow-100 !important;
+  border-color: $yellow-100 !important;
+  color: $yellow-300 !important;
+  &:link,
+  &:visited {
+    background-color: $yellow-100 !important;
+    border-color: $yellow-100 !important;
+    color: $yellow-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $yellow-000 !important;
+    border-color: $yellow-000 !important;
+    color: $yellow-500 !important;
+  }
+  &.no-bg {
+    border-color: $yellow-100 !important;
+    color: $yellow-300 !important;
+    &:link,
+    &:visited {
+      border-color: $yellow-100 !important;
+      color: $yellow-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $yellow-100 !important;
+      border-color: $yellow-100 !important;
+      color: $yellow-500 !important;
+    }
+  }
+}
+
+@mixin button-yellow-theme {
+  background-color: $yellow-500 !important;
+  border-color: $yellow-500 !important;
+  color: $yellow-100 !important;
+  &:link,
+  &:visited {
+    background-color: $yellow-500 !important;
+    border-color: $yellow-500 !important;
+    color: $yellow-100 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $yellow-400 !important;
+    border-color: $yellow-400 !important;
+    color: $yellow-100 !important;
+  }
+  &.no-bg {
+    border-color: $yellow-500 !important;
+    color: $yellow-500 !important;
+    &:link,
+    &:visited {
+      border-color: $yellow-500 !important;
+      color: $yellow-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $yellow-500 !important;
+      border-color: $yellow-500 !important;
+      color: $yellow-100 !important;
+    }
+  }
+}
+
+@mixin button-yellow-dark-theme {
+  background-color: $yellow-700 !important;
+  border-color: $yellow-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $yellow-700 !important;
+    border-color: $yellow-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $yellow-600 !important;
+    border-color: $yellow-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $yellow-700 !important;
+    color: $yellow-700 !important;
+    &:link,
+    &:visited {
+      border-color: $yellow-700 !important;
+      color: $yellow-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $yellow-700 !important;
+      border-color: $yellow-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Orange
+@mixin button-orange-light-theme {
+  background-color: $orange-100 !important;
+  border-color: $orange-100 !important;
+  color: $orange-300 !important;
+  &:link,
+  &:visited {
+    background-color: $orange-100 !important;
+    border-color: $orange-100 !important;
+    color: $orange-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $orange-000 !important;
+    border-color: $orange-000 !important;
+    color: $orange-500 !important;
+  }
+  &.no-bg {
+    border-color: $orange-100 !important;
+    color: $orange-300 !important;
+    &:link,
+    &:visited {
+      border-color: $orange-100 !important;
+      color: $orange-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $orange-100 !important;
+      border-color: $orange-100 !important;
+      color: $orange-500 !important;
+    }
+  }
+}
+
+@mixin button-orange-theme {
+  background-color: $orange-400 !important;
+  border-color: $orange-500 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $orange-400 !important;
+    border-color: $orange-500 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $orange-500 !important;
+    border-color: $orange-500 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $orange-500 !important;
+    color: $orange-500 !important;
+    &:link,
+    &:visited {
+      border-color: $orange-500 !important;
+      color: $orange-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $orange-500 !important;
+      border-color: $orange-500 !important;
+      color: $orange-100 !important;
+    }
+  }
+}
+
+@mixin button-orange-dark-theme {
+  background-color: $orange-700 !important;
+  border-color: $orange-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $orange-700 !important;
+    border-color: $orange-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $orange-600 !important;
+    border-color: $orange-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $orange-700 !important;
+    color: $orange-700 !important;
+    &:link,
+    &:visited {
+      border-color: $orange-700 !important;
+      color: $orange-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $orange-700 !important;
+      border-color: $orange-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Red
+@mixin button-red-light-theme {
+  background-color: $red-100 !important;
+  border-color: $red-100 !important;
+  color: $red-300 !important;
+  &:link,
+  &:visited {
+    background-color: $red-100 !important;
+    border-color: $red-100 !important;
+    color: $red-300 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $red-000 !important;
+    border-color: $red-000 !important;
+    color: $red-500 !important;
+  }
+  &.no-bg {
+    border-color: $red-100 !important;
+    color: $red-300 !important;
+    &:link,
+    &:visited {
+      border-color: $red-100 !important;
+      color: $red-300 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $red-100 !important;
+      border-color: $red-100 !important;
+      color: $red-500 !important;
+    }
+  }
+}
+
+@mixin button-red-theme {
+  background-color: $red-500 !important;
+  border-color: $red-500 !important;
+  color: $red-100 !important;
+  &:link,
+  &:visited {
+    background-color: $red-500 !important;
+    border-color: $red-500 !important;
+    color: $red-100 !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $red-400 !important;
+    border-color: $red-400 !important;
+    color: $red-100 !important;
+  }
+  &.no-bg {
+    border-color: $red-500 !important;
+    color: $red-500 !important;
+    &:link,
+    &:visited {
+      border-color: $red-500 !important;
+      color: $red-500 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $red-500 !important;
+      border-color: $red-500 !important;
+      color: $red-100 !important;
+    }
+  }
+}
+
+@mixin button-red-dark-theme {
+  background-color: $red-700 !important;
+  border-color: $red-700 !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $red-700 !important;
+    border-color: $red-700 !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $red-600 !important;
+    border-color: $red-600 !important;
+    color: $white !important;
+  }
+  &.no-bg {
+    border-color: $red-700 !important;
+    color: $red-700 !important;
+    &:link,
+    &:visited {
+      border-color: $red-700 !important;
+      color: $red-700 !important;
+    }
+    &:hover,
+    &:active {
+      background-color: $red-700 !important;
+      border-color: $red-700 !important;
+      color: $white !important;
+    }
+  }
+}
+
+// Classes
+// -------------------------------------------------------------
+.button-xxs,
+.button-xs,
+.button-s,
+.button-m,
+.button-l,
+.button-xl,
+.button-xxl {
+  // Themes
+  &.default      { @include button-default-theme; }
+  &.black        { @include button-black-theme; }
+  &.white        { @include button-white-theme; }
+  // Gray
+  &.gray-light   { @include button-gray-light-theme; }
+  &.gray         { @include button-gray-theme; }
+  &.gray-dark    { @include button-gray-dark-theme; }
+  // Purple
+  &.purple-light { @include button-purple-light-theme; }
+  &.purple       { @include button-purple-theme; }
+  &.purple-dark  { @include button-purple-dark-theme; }
+  // Blue
+  &.blue-light   { @include button-blue-light-theme; }
+  &.blue         { @include button-blue-theme; }
+  &.blue-dark    { @include button-blue-dark-theme; }
+  // Green
+  &.green-light  { @include button-green-light-theme; }
+  &.green        { @include button-green-theme; }
+  &.green-dark   { @include button-green-dark-theme; }
+  // Yellow
+  &.yellow-light { @include button-yellow-light-theme; }
+  &.yellow       { @include button-yellow-theme; }
+  &.yellow-dark  { @include button-yellow-dark-theme; }
+  // Orange
+  &.orange-light { @include button-orange-light-theme; }
+  &.orange       { @include button-orange-theme; }
+  &.orange-dark  { @include button-orange-dark-theme; }
+  // Red
+  &.red-light    { @include button-red-light-theme; }
+  &.red          { @include button-red-theme; }
+  &.red-dark     { @include button-red-dark-theme; }
+}

@@ -1,0 +1,22 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Displays
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.none {
+  display: none !important;
+  visibility: hidden;
+}
+
+.block {
+  display: block !important;
+  visibility: visible;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}

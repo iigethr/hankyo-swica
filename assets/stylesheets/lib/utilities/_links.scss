@@ -1,0 +1,99 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Icons
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin link-default {
+  appearance: none;
+  border: 0;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  letter-spacing: .030em;
+  text-align: left;
+  text-decoration: none;
+}
+
+@mixin link-math($icon-height, $push) {
+  .icon {
+    display: block;
+    float: left;
+    height: $icon-height;
+    margin: 0;
+    &.left { margin: 0 $push 0 0; }
+    &.right { margin: 0 0 0 $push; }
+  }
+}
+
+@mixin link-xxs {
+  @include link-default;
+  @include font-xxs;
+  @include link-math(
+    $icon-height: 18px,
+    $push: 9px
+  );
+}
+
+@mixin link-xs {
+  @include link-default;
+  @include font-xs;
+  @include link-math(
+    $icon-height: 20px,
+    $push: 10px
+  );
+}
+
+@mixin link-s {
+  @include link-default;
+  @include font-s;
+  @include link-math(
+    $icon-height: 22px,
+    $push: 11px
+  );
+}
+
+@mixin link-m {
+  @include link-default;
+  @include font-m;
+  @include link-math(
+    $icon-height: 24px,
+    $push: 12px
+  );
+}
+
+@mixin link-l {
+  @include link-default;
+  @include font-l;
+  @include link-math(
+    $icon-height: 32px,
+    $push: 16px
+  );
+}
+
+@mixin link-xl {
+  @include link-default;
+  @include font-xl;
+  @include link-math(
+    $icon-height: 40px,
+    $push: 20px
+  );
+}
+
+@mixin link-xxl {
+  @include link-default;
+  @include font-xxl;
+  @include link-math(
+    $icon-height: 48px,
+    $push: 24px
+  );
+}
+
+// Classes
+// -------------------------------------------------------------
+.link-xxs { @include link-xxs; }
+.link-xs  { @include link-xs; }
+.link-s   { @include link-s; }
+.link-m   { @include link-m; }
+.link-l   { @include link-l; }
+.link-xl  { @include link-xl; }
+.link-xxl { @include link-xxl; }

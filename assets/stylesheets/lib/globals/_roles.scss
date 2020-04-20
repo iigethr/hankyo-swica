@@ -1,0 +1,115 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Roles
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.notifications,
+.header,
+.main,
+.footer,
+.advisory {
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  min-height: 80px;
+}
+
+.footer {
+  min-height: 72px;
+}
+
+.advisory {
+  @include fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-header {
+  @include fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+// Note: when using sticky footer it's important
+// header & footer have fixed heights.
+.sticky-footer {
+  @include sticky;
+  float: left;
+  margin: 0;
+  max-width: 100%;
+  min-height: calc(100vh - (80px + 72px)); // Minus the height of the header and footer.
+  padding: 0;
+  width: 100%;
+}
+
+// Layout Setup
+.main {
+  padding: 32px 0;
+  .top {
+    float: left;
+    padding: 8px 24px;
+    width: 100%;
+  }
+  .middle {
+    float: left;
+    width: 100%;
+    .aside {
+      float: left;
+      width: 240px;
+    }
+    .section {
+      float: left;
+      width: 720px;
+      &.wide {
+        width: 100%;
+      }
+    }
+  }
+  .bottom {
+    float: left;
+    padding: 8px 24px;
+    width: 100%;
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+}

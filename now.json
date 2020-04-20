@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "public": false,
+  "build": {
+    "env": {
+      "HANKYO_ACCESS_TOKEN": "@hankyo_access_token",
+      "HANKYO_SECRET_ACCESS_TOKEN": "@hankyo_secret_access_token",
+      "PROJECT_SLUG": "@project_slug"
+    }
+  },
+  "trailingSlash": false
+}

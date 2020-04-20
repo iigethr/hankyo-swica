@@ -1,0 +1,345 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Link Themes
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+// Default
+@mixin link-default-theme {
+  color: $gray-500 !important;
+  &:link,
+  &:visited {
+    color: $gray-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-700 !important;
+  }
+}
+
+// Black
+@mixin link-black-theme {
+  color: $gray-700 !important;
+  &:link,
+  &:visited {
+    color: $gray-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $black !important;
+  }
+}
+
+// White
+@mixin link-white-theme {
+  color: $gray-100 !important;
+  &:link,
+  &:visited {
+    color: $gray-100 !important;
+  }
+  &:hover,
+  &:active {
+    color: $white !important;
+  }
+}
+
+// Gray
+@mixin link-gray-light-theme {
+  color: $gray-300 !important;
+  &:link,
+  &:visited {
+    color: $gray-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-500 !important;
+  }
+}
+
+@mixin link-gray-theme {
+  color: $gray-500 !important;
+  &:link,
+  &:visited {
+    color: $gray-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-700 !important;
+  }
+}
+
+@mixin link-gray-dark-theme {
+  color: $gray-700 !important;
+  &:link,
+  &:visited {
+    color: $gray-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $gray-900 !important;
+  }
+}
+
+// Purple
+@mixin link-purple-light-theme {
+  color: $purple-300 !important;
+  &:link,
+  &:visited {
+    color: $purple-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $purple-500 !important;
+  }
+}
+
+@mixin link-purple-theme {
+  color: $purple-500 !important;
+  &:link,
+  &:visited {
+    color: $purple-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $purple-700 !important;
+  }
+}
+
+@mixin link-purple-dark-theme {
+  color: $purple-700 !important;
+  &:link,
+  &:visited {
+    color: $purple-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $purple-900 !important;
+  }
+}
+
+// Blue
+@mixin link-blue-light-theme {
+  color: $blue-300 !important;
+  &:link,
+  &:visited {
+    color: $blue-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $blue-500 !important;
+  }
+}
+
+@mixin link-blue-theme {
+  color: $blue-500 !important;
+  &:link,
+  &:visited {
+    color: $blue-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $blue-700 !important;
+  }
+}
+
+@mixin link-blue-dark-theme {
+  color: $blue-700 !important;
+  &:link,
+  &:visited {
+    color: $blue-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $blue-900 !important;
+  }
+}
+
+// Green
+@mixin link-green-light-theme {
+  color: $green-300 !important;
+  &:link,
+  &:visited {
+    color: $green-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $green-500 !important;
+  }
+}
+
+@mixin link-green-theme {
+  color: $green-500 !important;
+  &:link,
+  &:visited {
+    color: $green-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $green-600 !important;
+  }
+}
+
+@mixin link-green-dark-theme {
+  color: $green-700 !important;
+  &:link,
+  &:visited {
+    color: $green-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $green-900 !important;
+  }
+}
+
+// Yellow
+@mixin link-yellow-light-theme {
+  color: $yellow-300 !important;
+  &:link,
+  &:visited {
+    color: $yellow-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $yellow-500 !important;
+  }
+}
+
+@mixin link-yellow-theme {
+  color: $yellow-500 !important;
+  &:link,
+  &:visited {
+    color: $yellow-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $yellow-600 !important;
+  }
+}
+
+@mixin link-yellow-dark-theme {
+  color: $yellow-700 !important;
+  &:link,
+  &:visited {
+    color: $yellow-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $yellow-900 !important;
+  }
+}
+
+// Orange
+@mixin link-orange-light-theme {
+  color: $orange-300 !important;
+  &:link,
+  &:visited {
+    color: $orange-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $orange-500 !important;
+  }
+}
+
+@mixin link-orange-theme {
+  color: $orange-500 !important;
+  &:link,
+  &:visited {
+    color: $orange-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $orange-700 !important;
+  }
+}
+
+@mixin link-orange-dark-theme {
+  color: $orange-700 !important;
+  &:link,
+  &:visited {
+    color: $orange-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $orange-900 !important;
+  }
+}
+
+// Red
+@mixin link-red-light-theme {
+  color: $red-300 !important;
+  &:link,
+  &:visited {
+    color: $red-300 !important;
+  }
+  &:hover,
+  &:active {
+    color: $red-500 !important;
+  }
+}
+
+@mixin link-red-theme {
+  color: $red-500 !important;
+  &:link,
+  &:visited {
+    color: $red-500 !important;
+  }
+  &:hover,
+  &:active {
+    color: $red-700 !important;
+  }
+}
+
+@mixin link-red-dark-theme {
+  color: $red-700 !important;
+  &:link,
+  &:visited {
+    color: $red-700 !important;
+  }
+  &:hover,
+  &:active {
+    color: $red-900 !important;
+  }
+}
+
+// Classes
+// -------------------------------------------------------------
+.link-xxs,
+.link-xs,
+.link-s,
+.link-m,
+.link-l,
+.link-xl,
+.link-xxl {
+  // Themes
+  &.default      { @include link-default-theme; }
+  &.black        { @include link-black-theme; }
+  &.white        { @include link-white-theme; }
+  // Gray
+  &.gray-light   { @include link-gray-light-theme; }
+  &.gray         { @include link-gray-theme; }
+  &.gray-dark    { @include link-gray-dark-theme; }
+  // Purple
+  &.purple-light { @include link-purple-light-theme; }
+  &.purple       { @include link-purple-theme; }
+  &.purple-dark  { @include link-purple-dark-theme; }
+  // Blue
+  &.blue-light   { @include link-blue-light-theme; }
+  &.blue         { @include link-blue-theme; }
+  &.blue-dark    { @include link-blue-dark-theme; }
+  // Green
+  &.green-light  { @include link-green-light-theme; }
+  &.green        { @include link-green-theme; }
+  &.green-dark   { @include link-green-dark-theme; }
+  // Yellow
+  &.yellow-light { @include link-yellow-light-theme; }
+  &.yellow       { @include link-yellow-theme; }
+  &.yellow-dark  { @include link-yellow-dark-theme; }
+  // Orange
+  &.orange-light { @include link-orange-light-theme; }
+  &.orange       { @include link-orange-theme; }
+  &.orange-dark  { @include link-orange-dark-theme; }
+  // Red
+  &.red-light    { @include link-red-light-theme; }
+  &.red          { @include link-red-theme; }
+  &.red-dark     { @include link-red-dark-theme; }
+}

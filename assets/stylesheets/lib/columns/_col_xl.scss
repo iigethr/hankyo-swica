@@ -1,0 +1,59 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Extra Large
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$width: 1440px;
+$class: "col-xl";
+
+@import "col_setup";
+@import "col_math";
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  $width: 240px;
+  @import "col_math";
+}
+
+// Media Query 360px
+// -------------------------------------------------------------
+@media #{$xs} {
+  $width: 360px;
+  @import "col_math";
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  $width: 480px;
+  @import "col_math";
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  $width: 720px;
+  @import "col_math";
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  $width: 960px;
+  @import "col_math";
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  $width: 1440px;
+  @import "col_math";
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media all and #{$xxl} {
+  $width: 1440px;
+  @import "col_math";
+}

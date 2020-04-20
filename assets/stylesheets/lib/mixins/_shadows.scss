@@ -1,0 +1,12 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Shadows
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin shadow($colour) {
+  box-shadow: 0 0 3px $colour;
+}
+
+// Classes
+// -------------------------------------------------------------
+.shadow { @include shadow($gray-200); }

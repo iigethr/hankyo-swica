@@ -1,0 +1,147 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Base
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+*,
+*::after,
+*::before {
+  @include border-box;
+  letter-spacing: .03em;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: $transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+html {
+  background-color: $white;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  @include border-box;
+  @include clearfix;
+  @include font-m;
+  background-color: $white;
+  color: $gray-400;
+  font-family: $sans;
+  letter-spacing: .03em;
+  min-height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  appearance: none;
+  display: none;
+  scrollbar-width: none;
+  visibility: hidden;
+}
+
+.body-root {
+  @include appear-animation(.50s);
+}
+
+.body-root,
+.root {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a,
+button,
+[type=button],
+[type=submit] {
+  @include hover-animation(.50s);
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: $transparent;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+figure {
+  @include appear-animation(2s);
+  border: 0;
+  display: block;
+  float: left;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  figcaption {
+    @include font-s;
+    border: 0;
+    margin: 0;
+    vertical-align: bottom;
+  }
+}
+
+img,
+svg {
+  @include appear-animation(2s);
+  border: 0;
+  display: block;
+  float: left;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+}

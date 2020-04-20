@@ -1,0 +1,195 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Buttons
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin button-default {
+  @include button-blue-theme;
+  appearance: none !important;
+  border: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  float: left !important;
+  letter-spacing: .030em !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  width: auto;
+  &.outline {
+    border: 1px solid !important;
+  }
+}
+
+@mixin button-size-xxs {
+  font-size: 8px;
+  line-height: 18px;
+  min-height: 18px;
+  padding: 0 9px;
+  &.pill {
+    @include border-corner(9px);
+  }
+  &.outline {
+    line-height: 16px;
+  }
+  &.condense {
+    padding: 0 4px;
+  }
+  &.condense.outline {
+    padding: 0 3px;
+  }
+}
+
+@mixin button-size-xs {
+  font-size: 8px;
+  line-height: 20px;
+  min-height: 20px;
+  padding: 0 10px;
+  &.pill {
+    @include border-corner(10px);
+  }
+  &.outline {
+    line-height: 18px;
+  }
+  &.condense {
+    padding: 0 4px;
+  }
+  &.condense.outline {
+    padding: 0 3px;
+  }
+}
+
+@mixin button-size-s {
+  font-size: 10px;
+  line-height: 22px;
+  min-height: 22px;
+  padding: 0 11px;
+  &.pill {
+    @include border-corner(12px);
+  }
+  &.outline {
+    line-height: 20px;
+  }
+  &.condense {
+    padding: 0 4px;
+  }
+  &.condense.outline {
+    padding: 0 3px;
+  }
+}
+
+@mixin button-math($border, $font, $height, $icon-height, $push) {
+  $pull: ($height - $icon-height) / 2;
+
+  font-size: $font;
+  line-height: $height;
+  padding: 0 $push;
+  .icon {
+    display: block;
+    float: left;
+    height: $icon-height;
+    margin: $pull 0;
+    &.left { margin: $pull $push $pull 0; }
+    &.right { margin: $pull 0 $pull $push; }
+  }
+
+  &.pill {
+    @include border-corner($border);
+  }
+
+  &.condense {
+    padding: 0 $pull;
+  }
+  &.condense-left {
+    padding: 0 $push 0 $pull;
+  }
+  &.condense-right {
+    padding: 0 $pull 0 $push;
+  }
+
+  &.outline {
+    line-height: ($height - 2px);
+    padding: 0 ($push - 1px);
+    &.condense {
+      padding: 0 ($pull - 1px);
+    }
+    &.condense-left {
+      padding: 0 ($push - 1px) 0 ($pull - 1px);
+    }
+    &.condense-right {
+      padding: 0 ($pull - 1px) 0 ($push - 1px);
+    }
+    .icon {
+      margin: ($pull - 1px) 0;
+      &.left { margin: ($pull - 1px) $push ($pull - 1px) 0; }
+      &.right { margin: ($pull - 1px) 0 ($pull - 1px) $push; }
+    }
+  }
+}
+
+@mixin button-xxs {
+  @include button-default;
+  @include button-size-xxs;
+}
+
+@mixin button-xs {
+  @include button-default;
+  @include button-size-xs;
+}
+
+@mixin button-s {
+  @include button-default;
+  @include button-size-s;
+}
+
+@mixin button-m {
+  @include button-default;
+  @include button-math(
+    $border: 12px,
+    $font: 12px,
+    $height: 24px,
+    $icon-height: 16px,
+    $push: 12px
+  );
+}
+
+@mixin button-l {
+  @include button-default;
+  @include button-math(
+    $border: 16px,
+    $font: 14px,
+    $height: 32px,
+    $icon-height: 20px,
+    $push: 14px
+  );
+}
+
+@mixin button-xl {
+  @include button-default;
+  @include button-math(
+    $border: 20px,
+    $font: 16px,
+    $height: 40px,
+    $icon-height: 24px,
+    $push: 16px
+  );
+}
+
+@mixin button-xxl {
+  @include button-default;
+  @include button-math(
+    $border: 24px,
+    $font: 18px,
+    $height: 48px,
+    $icon-height: 32px,
+    $push: 18px
+  );
+}
+
+// Classes
+// -------------------------------------------------------------
+.button-xxs { @include button-xxs; }
+.button-xs  { @include button-xs; }
+.button-s   { @include button-s; }
+.button-m   { @include button-m; }
+.button-l   { @include button-l; }
+.button-xl  { @include button-xl; }
+.button-xxl { @include button-xxl; }

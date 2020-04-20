@@ -1,0 +1,96 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Legal Section Menu
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$class: "legal-section-menu";
+
+.#{$class} {
+  float: left;
+  width: 100%;
+  .#{$class}-box {
+    float: left;
+    padding: 24px;
+    width: 100%;
+    .#{$class}-item {
+      float: left;
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Design Chips
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$class: "design-chips";
+
+.#{$class} {
+  float: left;
+  width: 100%;
+  .#{$class}-box {
+    float: left;
+    padding: 24px;
+    width: 100%;
+    .#{$class}-row {
+      float: left;
+      padding: 0 0 4px;
+      width: 100%;
+    }
+    .#{$class}-item {
+      float: left;
+      padding: 0;
+      width: 20%;
+      p {
+        border-bottom: 8px solid $white;
+        border-radius: 0;
+        border-top: 8px solid $white;
+        padding: 32px 0;
+      }
+      &.prime {
+        p {
+          border: 0;
+          border-radius: 8px;
+          padding: 40px 0;
+        }
+      }
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
