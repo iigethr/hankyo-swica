@@ -37,38 +37,40 @@ class Index extends React.Component {
               <div className="universal-row">
                 <div className="artboard-l center-h">
                   <Hero campaigns={campaigns} />
-                  <form className="form white-bg" id="form" action="https://submit-form.com/dVlr2taOeSnCytPgDKqVC" target="_self">
-                    <input type="checkbox" name="_honeypot" tabIndex="-1" autoComplete="off" className="honeypot" />
-                    <fieldset>
-                      <legend>Data Submission with GDPR Consentment Box</legend>
-                      <div className="form-row">
-                        <div className="form-item">
-                          <label>Email</label>
-                          <div className="input">
-                            <input type="email" name="email" autoComplete="off" required />
+                  <div className="artboard-s center-h">
+                    <form className="form white-bg" id="form" action="https://submit-form.com/dVlr2taOeSnCytPgDKqVC" target="_self">
+                      <input type="checkbox" name="_honeypot" tabIndex="-1" autoComplete="off" className="honeypot" />
+                      <fieldset>
+                        <legend>Data Submission with GDPR Consentment Box</legend>
+                        <div className="form-row">
+                          <div className="form-item">
+                            <label>Email</label>
+                            <div className="input">
+                              <input type="email" name="email" autoComplete="off" required />
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="form-row">
-                        <div className="form-item">
-                          <div className="submit">
-                            <input value="Submit" type="submit" className="button-xl blue wide" />
+                        <div className="form-row">
+                          <div className="form-item">
+                            <div className="submit">
+                              <input value="Submit" type="submit" className="button-xl blue wide" />
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="form-row">
-                        <div className="form-item">
-                          <div className="gdpr">
-                            <label htmlFor="checkbox">
-                              <input type="checkbox" id="checkbox" name="gdpr" value="consent" />
-                              <span className="checkmark"></span>
-                              I agree to ... donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
-                            </label>
+                        <div className="form-row">
+                          <div className="form-item">
+                            <div className="gdpr">
+                              <label htmlFor="checkbox">
+                                <input type="checkbox" id="checkbox" name="gdpr" value="consent" />
+                                <span className="checkmark"></span>
+                                I agree to ... donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
+                              </label>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </fieldset>
-                  </form>
+                      </fieldset>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>

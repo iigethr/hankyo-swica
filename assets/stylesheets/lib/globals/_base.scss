@@ -59,6 +59,8 @@ body::-webkit-scrollbar {
 
 .body-root,
 .root {
+  background-repeat: no-repeat;
+  background-position: top center;
   display: block;
   float: left;
   margin: 0;

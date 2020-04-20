@@ -35,7 +35,7 @@ class Campaigns extends React.Component {
     const { children } = this.props
     const project = children.props.project
     return (
-      <div className="root pink-500-bg">
+      <div className="root swica-green-bg">
         <Meta project={project} />
         { children }
         <Advisory />

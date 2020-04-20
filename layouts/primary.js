@@ -8,9 +8,13 @@ import Notifications from "../lib/globals/notifications"
 import Header from "../lib/globals/header"
 import Footer from "../lib/globals/footer"
 import Advisory from "../lib/globals/advisory"
+import Link from "next/link"
+
 // Modules
 import cookies from "next-cookies"
 import ZahaAlignments from "@iigethr/zaha_alignments"
+// Assets
+import BackgroundImage from "../assets/images/demo-bg.png";
 
 class Primary extends React.Component {
   constructor(props, ctx) {
@@ -39,10 +43,19 @@ class Primary extends React.Component {
     const project = children.props.project
     const currentLang = children.props.currentLang
     return (
-      <div className="root purple-500-bg">
+      <div className="root">
         <Meta project={project} />
-        <Notifications />
-        <Header currentLang={currentLang} />
+        {/* <Notifications /> */}
+        {/* <Header currentLang={currentLang} /> */}
+        <div className="overlay">
+          <div className="overlay-box center-h">
+            <div className="overlay-item">
+              <p className="text-center">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
+              <div className="separator-xs"/>
+              <Link href="/[lang]/campaigns" as="/en/campaigns"><a className="button-xxl center-h">Click Me</a></Link>
+            </div>
+          </div>
+        </div>
         <div className="sticky-footer">
           <main className="universal main">
             <div className="universal-box">
@@ -54,8 +67,13 @@ class Primary extends React.Component {
             </div>
           </main>
         </div>
-        <Footer />
-        <Advisory />
+        {/* <Footer /> */}
+        {/* <Advisory /> */}
+        <style jsx>{`
+          .root {
+            background-image: url(${BackgroundImage});
+          }
+        `}</style>
       </div>
     )
   }

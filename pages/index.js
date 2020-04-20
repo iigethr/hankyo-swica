@@ -17,7 +17,7 @@ class Index extends React.Component {
     console.log(currentLang)
     return (
       <div>
-        <Hero project={project} />
+        {/* <Hero project={project} /> */}
       </div>
     )
   }
