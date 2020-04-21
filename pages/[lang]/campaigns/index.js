@@ -9,16 +9,10 @@ import Footer from "../../../lib/globals/footer"
 import Hero from "../../../lib/components/campaigns/hero"
 // Data
 import data from "js-yaml-loader!../../../data/campaigns/campaigns.yml"
-// Modules
-import ZahaAlignments from "@iigethr/zaha_alignments"
 
 class Index extends React.Component {
   static async getInitialProps() {
     return { data: data }
-  }
-
-  componentDidMount() {
-    ZahaAlignments.centerH()
   }
 
   render () {
