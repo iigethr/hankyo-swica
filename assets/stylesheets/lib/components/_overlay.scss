@@ -15,22 +15,44 @@ $class: "overlay";
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  background-color: rgba(23, 159, 149, 0.2); /* Black background with opacity */
+  z-index: 9999; /* Specify a stack order in case you're using a different order for other elements */
   .#{$class}-box {
-    margin: 128px 0 0;
+    margin: 80px 0 0;
     display: block;
     float: left;
-    width: 480px;
+    width: 729px;
     .#{$class}-item {
       background-color: white;
       display: block;
       float: left;
-      padding: 48px;
-      width: 480px;
+      padding: 0;
+      width: 729px;
+      a {
+        display: block;
+        float: left;
+        padding: 0;
+        width: 729px;
+      }
     }
   }
+}
+
+#element{
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
 }
 
 // Media Query 240px

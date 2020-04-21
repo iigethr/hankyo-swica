@@ -3,8 +3,8 @@
 project:
   # Metatags
   meta_lang: "en-GB"
-  meta_title: "Tadao + Next"
-  meta_description: "A basic kickstart setup for NextJS. It comes pre-installed with Tadao - A Minimal and Lightweight Design System."
+  meta_title: "SWICA Swiss health insurance. Because health is everything."
+  meta_description: "Choosing the right health and accident insurance is definitely worthwhile. SWICA offers first-class service and high-quality products in every area of healthcare."
   meta_tags: "campaigns, legal, sections"
   meta_type: "website"
   meta_url: "https://tadao-next.now.sh/"

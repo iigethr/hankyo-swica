@@ -37,7 +37,7 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps, router, project, currentLang } = this.props
-    if (router.pathname === "/[lang]/campaigns") {
+    if (router.pathname === "/[lang]/campaigns" || router.pathname === "/[lang]/campaigns/submitted") {
       return (
         <Campaigns>
           <Component {...pageProps} {...project} currentLang={currentLang} />

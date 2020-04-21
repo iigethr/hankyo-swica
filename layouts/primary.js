@@ -47,12 +47,10 @@ class Primary extends React.Component {
         <Meta project={project} />
         {/* <Notifications /> */}
         {/* <Header currentLang={currentLang} /> */}
-        <div className="overlay">
+        <div className="overlay" id="element">
           <div className="overlay-box center-h">
             <div className="overlay-item">
-              <p className="text-center">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum.</p>
-              <div className="separator-xs"/>
-              <Link href="/[lang]/campaigns" as="/en/campaigns"><a className="button-xxl center-h">Click Me</a></Link>
+              <Link href="/[lang]/campaigns" as="/en/campaigns"><a><img src={require("../assets/images/popup.png")} alt="SWICA" title="SWICA"/></a></Link>
             </div>
           </div>
         </div>

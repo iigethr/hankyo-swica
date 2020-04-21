@@ -35,10 +35,10 @@ class Campaigns extends React.Component {
     const { children } = this.props
     const project = children.props.project
     return (
-      <div className="root swica-green-bg">
+      <div className="root white-bg">
         <Meta project={project} />
         { children }
-        <Advisory />
+        {/* <Advisory /> */}
       </div>
     )
   }

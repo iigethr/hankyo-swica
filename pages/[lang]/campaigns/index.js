@@ -41,7 +41,7 @@ class Index extends React.Component {
                     <form className="form white-bg" id="form" action="https://submit-form.com/dVlr2taOeSnCytPgDKqVC" target="_self">
                       <input type="checkbox" name="_honeypot" tabIndex="-1" autoComplete="off" className="honeypot" />
                       <fieldset>
-                        <legend>Data Submission with GDPR Consentment Box</legend>
+                        {/* <legend>Data Submission with GDPR Consentment Box</legend> */}
                         <div className="form-row">
                           <div className="form-item">
                             <label>Email</label>
@@ -53,7 +53,7 @@ class Index extends React.Component {
                         <div className="form-row">
                           <div className="form-item">
                             <div className="submit">
-                              <input value="Submit" type="submit" className="button-xl blue wide" />
+                              <input value="Submit" type="submit" className="button-xl swica wide" />
                             </div>
                           </div>
                         </div>

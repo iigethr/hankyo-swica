@@ -8,6 +8,25 @@
   @include button-gray-theme;
 }
 
+// SWICA Green
+@mixin button-swica-theme {
+  background-color: $swica-green !important;
+  border-color: $swica-green !important;
+  color: $white !important;
+  &:link,
+  &:visited {
+    background-color: $swica-green !important;
+    border-color: $swica-green !important;
+    color: $white !important;
+  }
+  &:hover,
+  &:active {
+    background-color: $swica-green !important;
+    border-color: $swica-green !important;
+    color: $white !important;
+  }
+}
+
 // Black
 @mixin button-black-theme {
   background-color: $black !important;
@@ -773,6 +792,7 @@
 .button-xxl {
   // Themes
   &.default      { @include button-default-theme; }
+  &.swica        { @include button-swica-theme; }
   &.black        { @include button-black-theme; }
   &.white        { @include button-white-theme; }
   // Gray
