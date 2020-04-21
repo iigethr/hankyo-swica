@@ -9,6 +9,8 @@ import Footer from "../../../lib/globals/footer"
 import Hero from "../../../lib/components/campaigns/hero_submitted"
 // Data
 import data from "js-yaml-loader!../../../data/campaigns/campaigns.yml"
+// Modules
+import ZahaAlignments from "@iigethr/zaha_alignments"
 
 class Submitted extends React.Component {
   static async getInitialProps() {
@@ -16,7 +18,7 @@ class Submitted extends React.Component {
   }
 
   componentDidMount() {
-    console.log("Registered a Campaigns Page - Index")
+    ZahaAlignments.centerH()
   }
 
   render () {
