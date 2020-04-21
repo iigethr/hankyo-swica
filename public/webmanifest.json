@@ -4,20 +4,25 @@
   "description": "Choosing the right health and accident insurance is definitely worthwhile. SWICA offers first-class service and high-quality products in every area of healthcare.",
   "icons": [
     {
-      "src": "favicon/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "/icons/android-chrome128px128px.png",
+      "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "favicon/android-chrome-512x512.png",
+      "src": "/icons/android-chrome196px196px.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome512px512px.png",
       "sizes": "512x512",
       "type":"image/png"
     }
   ],
-  "background_color": "#ffffff",
+  "background_color": "#FFFFFF",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "https://hankyo-swica.now.sh/",
-  "theme_color": "#ffffff"
+  "theme_color": "#FFFFFF"
 }
