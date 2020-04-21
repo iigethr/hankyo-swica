@@ -38,8 +38,9 @@ class Index extends React.Component {
                 <div className="artboard-l center-h">
                   <Hero campaigns={campaigns} />
                   <div className="artboard-s center-h">
-                    <form className="form white-bg" id="form" action="https://submit-form.com/dVlr2taOeSnCytPgDKqVC" target="_self">
+                    <form className="form white-bg" id="form" action="https://submit-form.com/dVlr2taOeSnCytPgDKqVC" target="_self" >
                       <input type="checkbox" name="_honeypot" tabIndex="-1" autoComplete="off" className="honeypot" />
+                      <input type="hidden" name="_redirect" value="https://hankyo-swica.now.sh/en/campaigns/submitted" />
                       <fieldset>
                         {/* <legend>Data Submission with GDPR Consentment Box</legend> */}
                         <div className="form-row">
